@@ -12,6 +12,7 @@ text-rendering: optimizeLegibility !important;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 -moz-osx-font-smoothing: grayscale !important;
+	display:block !important;
 }
 	
 *:focus{
