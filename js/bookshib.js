@@ -1,8 +1,5 @@
-/*        if(){
-
-        }
-        */
-// Get HTML head element
+       if(window.location.hostname == "bookshib.online"){
+          // Get HTML head element
         var head = document.getElementsByTagName('HEAD')[0];
  
         // Create new link Element
@@ -13,7 +10,10 @@
      
         link.type = 'text/css';
      
-        link.href = 'bookshib.css';
+        link.href = 'css/bookshib.css';
  
         // Append link element to HTML head
         head.appendChild(link);
+        }
+      
+
